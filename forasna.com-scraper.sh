@@ -14,7 +14,8 @@ URL='https://forasna.com/%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%AE%D8%A7%D9%84%D9%8A
 temp_dir='/tmp/forasna.com_scraper'
 
 # output file containing list of job post URLs
-output_file="postings-`date +\%Y-\%m-\%d-\%H-\%M-\%S`.csv"
+output_file="output/postings-`date +\%Y-\%m-\%d-\%H-\%M-\%S`.csv"
+mkdir -p output
 
 mkdir -p ${temp_dir}
 
